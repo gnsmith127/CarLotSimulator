@@ -18,6 +18,9 @@ namespace CarLotSimulator
             //Set the properties for each of the cars - done
             //Call each of the methods for each car
 
+            
+
+
             var car1 = new Car();
             car1.Year = 2020;
             car1.Make = "Mazda";
@@ -42,6 +45,9 @@ namespace CarLotSimulator
             };
 
 
+            
+
+
             car1.MakeEngineNoise(car1.EngineNoise);
             car2.MakeEngineNoise(car2.EngineNoise);
             car3.MakeEngineNoise(car3.EngineNoise);
@@ -51,6 +57,9 @@ namespace CarLotSimulator
             car1.MakeHonkNoise(car1.HonkNoise);
             car2.MakeHonkNoise(car2.HonkNoise);
             car3.MakeHonkNoise(car3.HonkNoise);
+
+
+            Console.WriteLine($"Number of cars created:{CarLot.numberOfCars}");
             //*************BONUS*************//
 
             // Set the properties utilizing the 3 different ways we learned about, one way for each car
